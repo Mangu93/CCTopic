@@ -1,2 +1,2 @@
 # CCTopic
-Demo on Docker for Cloud Computing at Uni Wien
+Demo on Docker, Docker Compose and Kubernetes for Cloud Computing at Uni Wien
