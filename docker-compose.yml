@@ -1,0 +1,16 @@
+version: '3'
+services:
+  mongo:
+    tty: true
+    image: mongo:latest
+    volumes:
+      - ./data/db:/data/db
+    container_name: "mongo"
+    ports:
+      - "27017:27017"
+  flask:
+    tty: true
+    build: .
+    container_name: "flask"
+    ports:
+      - "5000:5000"
